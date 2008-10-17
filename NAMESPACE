@@ -1,0 +1,5 @@
+UseDynLib(muscor)
+
+export (muscor, muscor.model, opt.L1)
+S3method(predict,muscor)
+
